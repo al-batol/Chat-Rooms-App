@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030504464669",
+    "project_id": "chat-rooms-be750",
+    "storage_bucket": "chat-rooms-be750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030504464669:android:5230ea5263bee6840e21f4",
+        "android_client_info": {
+          "package_name": "com.chatrooms.chat_rooms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMyfs9hv8kxToSy2nSWD3VKjpZRLRgBUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
