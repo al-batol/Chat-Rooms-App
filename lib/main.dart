@@ -1,5 +1,4 @@
 import 'package:chat_rooms/core/helper/app_router.dart';
-import 'package:chat_rooms/core/helper/providers.dart';
 import 'package:chat_rooms/core/services/injection_container.dart';
 import 'package:chat_rooms/core/is_user_signed_in.dart';
 import 'package:chat_rooms/firebase_options.dart';

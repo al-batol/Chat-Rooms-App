@@ -5,7 +5,6 @@ import 'package:chat_rooms/core/utils/show_proccess_indicator.dart';
 import 'package:chat_rooms/core/utils/show_snack_bar.dart';
 import 'package:chat_rooms/src/features/auth/presentation/cubit/auth/authentication_cubit.dart';
 import 'package:chat_rooms/src/features/auth/presentation/cubit/user/user_auth_cubit.dart';
-import 'package:chat_rooms/src/features/auth/presentation/cubit/users/users_cubit.dart';
 import 'package:chat_rooms/src/features/auth/presentation/screens/signup_screen.dart';
 import 'package:chat_rooms/src/features/auth/presentation/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';

@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:chat_rooms/core/utils/app_colors.dart';
 import 'package:chat_rooms/core/utils/app_dimensions.dart';

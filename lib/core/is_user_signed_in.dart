@@ -3,7 +3,6 @@ import 'package:chat_rooms/src/features/auth/presentation/cubit/users/users_cubi
 import 'package:chat_rooms/src/features/home/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 class IsUserSignedInScreen extends StatelessWidget {
   static const String routeName = 'main-screen';

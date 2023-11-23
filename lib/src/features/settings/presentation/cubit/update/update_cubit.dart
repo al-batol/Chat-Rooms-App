@@ -3,8 +3,6 @@ import 'dart:io';
 import 'package:chat_rooms/core/utils/app_strings.dart';
 import 'package:chat_rooms/core/utils/pick_photo.dart';
 import 'package:chat_rooms/core/utils/upload_photo.dart';
-import 'package:chat_rooms/src/features/auth/presentation/cubit/user/user_auth_cubit.dart';
-import 'package:chat_rooms/src/features/auth/presentation/cubit/users/users_cubit.dart';
 import 'package:chat_rooms/src/features/settings/domain/use_cases/update_user_profile.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/settings/settings_cubit.dart';
 import 'package:equatable/equatable.dart';

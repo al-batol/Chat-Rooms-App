@@ -5,7 +5,6 @@ import 'package:chat_rooms/core/utils/app_strings.dart';
 import 'package:chat_rooms/core/errors/strings.dart';
 import 'package:chat_rooms/core/utils/user_auth.dart';
 import 'package:chat_rooms/src/features/auth/domain/entities/user.dart';
-import 'package:chat_rooms/src/features/auth/presentation/cubit/users/users_cubit.dart';
 import 'package:equatable/equatable.dart';
 
 part 'user_auth_state.dart';

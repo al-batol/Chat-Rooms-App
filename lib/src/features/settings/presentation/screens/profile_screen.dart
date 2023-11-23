@@ -1,17 +1,11 @@
 import 'package:chat_rooms/core/utils/app_colors.dart';
 import 'package:chat_rooms/core/utils/app_dimensions.dart';
-import 'package:chat_rooms/core/widgets/photo_card.dart';
 import 'package:chat_rooms/core/widgets/decorated_button.dart';
 import 'package:chat_rooms/core/widgets/decorated_text_field.dart';
 import 'package:chat_rooms/core/utils/show_proccess_indicator.dart';
 import 'package:chat_rooms/core/utils/show_snack_bar.dart';
 import 'package:chat_rooms/src/features/auth/domain/entities/user.dart';
-import 'package:chat_rooms/src/features/home/data/models/topic_model.dart';
-import 'package:chat_rooms/src/features/home/domain/entities/room.dart';
-import 'package:chat_rooms/src/features/home/domain/entities/topic.dart';
-import 'package:chat_rooms/src/features/home/presentation/cubit/topics/topics_cubit.dart';
 import 'package:chat_rooms/src/features/home/presentation/screens/home_screen.dart';
-import 'package:chat_rooms/src/features/home/presentation/widgets/room_card.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/settings/settings_cubit.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/update/update_cubit.dart';
 import 'package:chat_rooms/src/features/settings/presentation/widgets/profile_photo.dart';
@@ -177,14 +171,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           )
                       else if (state.roomsAndTopicsState ==
                           RoomsAndTopicsState.loading)
-                        Center(child: CircularProgressIndicator()),
+                        const Center(child: CircularProgressIndicator()),
                     ],
                   ),
                 ),
               ),
             );
           } else {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           }
         },
       ),

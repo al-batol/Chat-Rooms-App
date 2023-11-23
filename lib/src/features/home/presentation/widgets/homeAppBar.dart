@@ -1,14 +1,11 @@
-import 'dart:developer';
 
 import 'package:chat_rooms/core/utils/app_colors.dart';
 import 'package:chat_rooms/core/utils/app_dimensions.dart';
 import 'package:chat_rooms/core/utils/assets_strings.dart';
 import 'package:chat_rooms/core/widgets/photo_card.dart';
 import 'package:chat_rooms/core/utils/show_proccess_indicator.dart';
-import 'package:chat_rooms/core/utils/user_auth.dart';
 import 'package:chat_rooms/src/features/auth/domain/entities/user.dart';
 import 'package:chat_rooms/src/features/auth/presentation/cubit/user/user_auth_cubit.dart';
-import 'package:chat_rooms/src/features/auth/presentation/cubit/users/users_cubit.dart';
 import 'package:chat_rooms/src/features/auth/presentation/screens/sign_in_screen.dart';
 import 'package:chat_rooms/src/features/home/presentation/widgets/menu_item.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/settings/settings_cubit.dart';
