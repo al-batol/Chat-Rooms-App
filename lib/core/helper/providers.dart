@@ -11,32 +11,34 @@ import 'package:chat_rooms/src/features/settings/presentation/cubit/update/updat
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-List<BlocProvider> appProviders(BuildContext context) => [
-      BlocProvider(
-        create: (context) => sl<UserAuthCubit>()..getUserData(),
-      ),
-      BlocProvider(
-        create: (context) => sl<UsersCubit>()..getAllUsers(),
-      ),
-      BlocProvider(
-        create: (context) => sl<AuthenticationCubit>(),
-      ),
-      BlocProvider(
-        create: (context) => sl<TopicsCubit>()..getAllTopics(),
-      ),
-      BlocProvider(
-        create: (context) => sl<RoomsCubit>()..getAllRooms(),
-      ),
-      BlocProvider(
-        create: (context) => sl<CrudRoomsCubit>(),
-      ),
-      BlocProvider(
-        create: (context) => sl<ChatsBloc>(),
-      ),
-      BlocProvider(
-        create: (context) => sl<SettingsCubit>(),
-      ),
-      BlocProvider(
-        create: (context) => sl<UpdateCubit>(),
-      ),
-    ];
+class BlocProviders {
+  static get appProviders => [
+        BlocProvider(
+          create: (context) => sl<UserAuthCubit>()..getUserData(),
+        ),
+        BlocProvider(
+          create: (context) => sl<UsersCubit>()..getAllUsers(),
+        ),
+        BlocProvider(
+          create: (context) => sl<AuthenticationCubit>(),
+        ),
+        BlocProvider(
+          create: (context) => sl<TopicsCubit>()..getAllTopics(),
+        ),
+        BlocProvider(
+          create: (context) => sl<RoomsCubit>()..getAllRooms(),
+        ),
+        BlocProvider(
+          create: (context) => sl<CrudRoomsCubit>(),
+        ),
+        BlocProvider(
+          create: (context) => sl<ChatsBloc>(),
+        ),
+        BlocProvider(
+          create: (context) => sl<SettingsCubit>(),
+        ),
+        BlocProvider(
+          create: (context) => sl<UpdateCubit>(),
+        ),
+      ];
+}

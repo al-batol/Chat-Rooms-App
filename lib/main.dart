@@ -1,4 +1,5 @@
 import 'package:chat_rooms/core/helper/app_router.dart';
+import 'package:chat_rooms/core/helper/providers.dart';
 import 'package:chat_rooms/core/services/injection_container.dart';
 import 'package:chat_rooms/core/is_user_signed_in.dart';
 import 'package:chat_rooms/firebase_options.dart';
@@ -36,33 +37,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
-      providers:     [BlocProvider(
-        create: (context) => sl<UserAuthCubit>()..getUserData(),
-      ),
-        BlocProvider(
-          create: (context) => sl<UsersCubit>()..getAllUsers(),
-        ),
-        BlocProvider(
-          create: (context) => sl<AuthenticationCubit>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<TopicsCubit>()..getAllTopics(),
-        ),
-        BlocProvider(
-          create: (context) => sl<RoomsCubit>()..getAllRooms(),
-        ),
-        BlocProvider(
-          create: (context) => sl<CrudRoomsCubit>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<ChatsBloc>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<SettingsCubit>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<UpdateCubit>(),
-        )],
+      providers: BlocProviders.appProviders,
       child: MaterialApp(
         title: 'Rooms Chat',
         debugShowCheckedModeBanner: false,
