@@ -128,6 +128,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       'description': widget.roomDescription,
                       'topic': widget.topic,
                       'topicId': widget.topicId,
+                      'isUserVerified': widget.isUserSignedIn,
                     });
               },
               icon: const Icon(
