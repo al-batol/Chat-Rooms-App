@@ -8,7 +8,6 @@ import 'package:chat_rooms/src/features/home/presentation/cubit/rooms/rooms_cubi
 import 'package:chat_rooms/src/features/home/presentation/cubit/topics/topics_cubit.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/settings/settings_cubit.dart';
 import 'package:chat_rooms/src/features/settings/presentation/cubit/update/update_cubit.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class BlocProviders {
