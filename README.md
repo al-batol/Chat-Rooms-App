@@ -38,8 +38,12 @@ photos for description:
 
 - Create Room Screen:
 ![Screenshot_20231126-185543](https://github.com/al-batol/Chat-Rooms-App/assets/127296481/ec10b29d-00c7-4941-8140-b744824f6d08)
--Update Room Screen:
+- Update Room Screen:
 ![Screenshot_20231126-193749](https://github.com/al-batol/Chat-Rooms-App/assets/127296481/9f390e4f-4d0b-4f7c-a5f9-b11edc8063f0)
+- Admin options:
+![Screenshot_20231127-184830](https://github.com/al-batol/Chat-Rooms-App/assets/127296481/0f4c00b5-ffd9-4770-8438-2a4b0b16d5f6)
+- Inside a room:
+![Screenshot_20231126-185658](https://github.com/al-batol/Chat-Rooms-App/assets/127296481/0e5ac530-3b0a-434c-8432-13268e7cb7f5)
 
 ### Room Participation
 
